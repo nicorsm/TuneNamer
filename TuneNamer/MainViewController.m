@@ -26,7 +26,7 @@
     open.canChooseFiles = YES;
     open.allowsMultipleSelection = YES;
     open.canChooseDirectories = NO;
-    open.allowedFileTypes = @[@"mp4",@"m4a",@"mp3",@"aac",@"aif",@"wav",@"wma"];
+    open.allowedFileTypes = @[@"m4a",@"mp3",@"aac",@"aif",@"wav",@"wma"];
     
     [open beginWithCompletionHandler:^(NSInteger result){
         if (result == NSFileHandlingPanelOKButton) {
